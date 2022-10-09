@@ -31,14 +31,14 @@ h1{
     display: flex;
     align-self:flex-end;
     transform: rotate(180deg);
-    transition: transform 1.4s ease;
+    transition: transform 1s ease;
 }
 .answer{
     max-height: 0;
     overflow: hidden;
     margin-top:2em;
     text-align: center;
-    transition:max-height 1.4s ease ;
+    transition:max-height 1s ease ;
 }
 .faq-container.active .answer{
     max-height: 300px;
